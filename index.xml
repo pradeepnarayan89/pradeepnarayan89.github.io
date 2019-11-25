@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo Website</title>
-    <link>https://www.example.com/</link>
+    <link>https://pradeepnarayan89.github.io/</link>
     <description>Recent content on Hugo Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Nov 2019 12:04:24 -0500</lastBuildDate>
     
-	<atom:link href="https://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pradeepnarayan89.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My First Post</title>
-      <link>https://www.example.com/blog/my-first-post/</link>
+      <link>https://pradeepnarayan89.github.io/blog/my-first-post/</link>
       <pubDate>Mon, 25 Nov 2019 12:04:24 -0500</pubDate>
       
-      <guid>https://www.example.com/blog/my-first-post/</guid>
+      <guid>https://pradeepnarayan89.github.io/blog/my-first-post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>My First Post on Hugo</title>
-      <link>https://www.example.com/posts/my-first-post/</link>
+      <link>https://pradeepnarayan89.github.io/posts/my-first-post/</link>
       <pubDate>Mon, 25 Nov 2019 11:51:58 -0500</pubDate>
       
-      <guid>https://www.example.com/posts/my-first-post/</guid>
+      <guid>https://pradeepnarayan89.github.io/posts/my-first-post/</guid>
       <description></description>
     </item>
     

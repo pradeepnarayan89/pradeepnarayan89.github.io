@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Website</title>
+    <title>Homepage on Hugo Website</title>
     <link>https://pradeepnarayan89.github.io/</link>
-    <description>Recent content on Hugo Website</description>
+    <description>Recent content in Homepage on Hugo Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2019 12:04:24 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2019 12:47:18 -0500</lastBuildDate>
     
 	<atom:link href="https://pradeepnarayan89.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,7 @@
     <item>
       <title>My First Post on Hugo</title>
       <link>https://pradeepnarayan89.github.io/posts/my-first-post/</link>
-      <pubDate>Mon, 25 Nov 2019 11:51:58 -0500</pubDate>
+      <pubDate>Mon, 25 Nov 2019 11:52:58 -0500</pubDate>
       
       <guid>https://pradeepnarayan89.github.io/posts/my-first-post/</guid>
       <description></description>

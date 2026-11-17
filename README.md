@@ -4,20 +4,6 @@ Personal portfolio of Pradeep Narayana, deployed to GitHub Pages by a CI/CD pipe
 
 Live site: https://pradeepnarayan89.github.io/
 
-## Project layout
-
-```
-src/app/          layout, page, global styles, icon
-src/components/   sidebar, nav, theme toggle and page sections
-src/data/         all page content in one file (profile.ts)
-tests/            unit and component tests
-scripts/          post-build smoke test
-public/           photo and static files
-.github/          CI/CD workflow and dependency update config
-```
-
-To change the text on the site, edit `src/data/profile.ts`.
-
 ## Local development
 
 ```bash

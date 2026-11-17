@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/compare/v1.0.0...v1.0.1) (2026-11-17)
+
+
+### Bug Fixes
+
+* **content:** use generic Drupal wording ([adb1ac3](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/commit/adb1ac321827bbc9e7ff2fa05d23f1ad60735bb1))
+
 # 1.0.0 (2026-11-17)
 
 

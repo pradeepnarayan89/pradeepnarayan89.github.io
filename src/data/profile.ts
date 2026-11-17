@@ -21,7 +21,7 @@ export const profile = {
   last: 'Narayana',
   role: 'Senior Software Engineer · CMS (Drupal)',
   pitch:
-    '14+ years building and delivering CMS web applications, at Northwestern Mutual today and for Pfizer before that.',
+    '14+ years building and delivering web applications, with deep Drupal and full-stack experience.',
   links: {
     github: 'https://github.com/pradeepnarayan89',
     linkedin: 'https://www.linkedin.com/in/pradeepnarayan89',
@@ -34,7 +34,7 @@ export const profile = {
   ],
   stats: [
     { value: '14+', label: 'years since 2012' },
-    { value: '100+', label: 'Pfizer solutions delivered' },
+    { value: '100+', label: 'solutions for a global pharma client' },
     { value: '250+', label: 'sites moved to Cloudflare DNS' },
     { value: '6', label: 'Acquia certifications' },
   ],
@@ -49,7 +49,7 @@ export const profile = {
     },
     {
       title: 'Upgrades and migrations',
-      text: 'Core updates with Composer, a PHP upgrade across the Pfizer platform, and a full data migration for a rebuilt brand site.',
+      text: 'Core updates with Composer, a PHP upgrade across a global pharmaceutical platform, and a full data migration for a rebuilt brand site.',
     },
     {
       title: 'CI/CD and DevOps',
@@ -120,11 +120,11 @@ export const profile = {
     {
       when: 'Feb 2019 – May 2021',
       title: 'Drupal Developer',
-      where: 'IT Trailblazers · Client: Pfizer Inc.',
+      where: 'IT Trailblazers · Client: global pharmaceutical company',
       points: [
-        'Developed 100+ solutions for Pfizer brands and divisions across North America, LATAM and APAC.',
+        'Developed 100+ solutions for the brands and divisions of a global pharmaceutical company across North America, LATAM and APAC.',
         'Moved 250+ websites to Cloudflare DNS, with a PHP 7.1 upgrade and security fixes. Integrated apps with Janrain and the GRV database, and set up SSO login.',
-        'Re-architected the Pfizer brand website and content strategy: migrated all data, built the new site and a custom Drupal theme, and simplified the authoring experience.',
+        'Re-architected a pharmaceutical brand website and its content strategy: migrated all data, built the new site and a custom Drupal theme, and simplified the authoring experience.',
         'Built custom modules for Acquia Solr advanced search (AND, OR, NOT filters), a private file system that restricts confidential items, and a cron-based broken-link report.',
         'Ran core updates with Composer, resolved conflicts and patches, and built content types, blocks, views and role-based dashboards.',
         'Mentored developers and handed projects over to clients with technical and handover documentation.',
@@ -137,7 +137,7 @@ export const profile = {
       where: 'IT Trailblazers · Greater Bengaluru Area, India',
       points: [
         'Automated builds, packaging and releases across environments with Jenkins, GitLab, Jira and Ansible. Containerized test and dev environments with Docker.',
-        'Helped build the Pfizer corporate template and onboarded the Pfizer corporate website to Drupal Site Factory.',
+        'Helped build the corporate template and onboarded the corporate website of a global pharmaceutical company to Drupal Site Factory.',
         'Gathered requirements, created architecture and data models, defined system-testing criteria and the SDLC, and set release management strategy on an Agile process.',
         'Developed 100+ websites and applications on Drupal and core PHP, with Twig templates tested across browsers and devices.',
       ],

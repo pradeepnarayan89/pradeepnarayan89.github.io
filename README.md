@@ -1,16 +1,8 @@
 # pradeepnarayan89.github.io
 
-Personal portfolio of Pradeep Narayana. Built with Next.js (App Router, TypeScript) as a static export and deployed to GitHub Pages by a CI/CD pipeline.
+Personal portfolio of Pradeep Narayana, deployed to GitHub Pages by a CI/CD pipeline.
 
 Live site: https://pradeepnarayan89.github.io/
-
-## Stack
-
-- Next.js with `output: 'export'`, so the build is plain static files in `out/`
-- TypeScript, plain CSS, no runtime dependencies beyond React
-- Vitest and Testing Library for tests
-- commitlint and husky for Conventional Commits
-- semantic-release for versioning, tags, GitHub releases and the changelog
 
 ## Project layout
 

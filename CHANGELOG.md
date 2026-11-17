@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/compare/v1.0.1...v1.1.0) (2026-11-17)
+
+
+### Features
+
+* **content:** rewrite About and add Northwestern Mutual details ([e3a9a23](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/commit/e3a9a23fd9dacc393716cdf52f324e67f3006156))
+
 ## [1.0.1](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/compare/v1.0.0...v1.0.1) (2026-11-17)
 
 

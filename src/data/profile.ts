@@ -29,8 +29,8 @@ export const profile = {
     acquia: 'https://certification.acquia.com/user/2649',
   },
   about: [
-    "I'm a Senior Software Engineer at Northwestern Mutual in the New York City area. I'm enthusiastic and passionate about open source technology, with extensive experience building solutions on CMS web application platforms (Drupal), from custom modules and themes to architecture, CI/CD and release management.",
-    'I like learning new things and have completed several Acquia certifications. I speak English, Hindi and Kannada.',
+    "I'm a full-stack developer at Northwestern Mutual in the New York City area, with 14+ years of building web applications from the database to the browser. On the back end I work with Drupal and PHP. On the front end I build with React, Next.js, Vue and Nuxt, connected through REST and JSON APIs.",
+    "I'm strongest at custom Drupal modules and themes, third-party integrations, and the delivery work around them: architecture, Docker and CI/CD, and release management. I'm passionate about open source and keep learning, and I hold six Acquia certifications.",
   ],
   stats: [
     { value: '14+', label: 'years since 2012' },
@@ -89,8 +89,18 @@ export const profile = {
   experience: [
     {
       when: 'May 2022 – Present',
-      title: 'Senior Software Engineer',
+      title: 'Senior Software Engineer, Content Systems',
       where: 'Northwestern Mutual · New York City area',
+      points: [
+        "Build new features for the Drupal CMS that powers Northwestern Mutual's client-facing content experiences, working within the engineering team on the marketing technology side to extend the platform.",
+        'Do backend-focused work on headless Drupal and its APIs, collaborating on design and testing with marketing, editorial, design and sister engineering teams.',
+        'Build front-end components, content types and templated pages for the NM.com "Life and Money" blog with Vue.js, React, HTML and related browser technologies.',
+        'Partner with the design team on concepts, identify UI/UX patterns used across NM.com web properties, and maintain these composable pieces.',
+        'Write documentation and integration tests for the content systems.',
+        'Support stakeholders directly, troubleshooting usage problems and helping the product team shape feature requirements.',
+        "Contribute code and review teammates' code as part of the software team.",
+      ],
+      tags: ['Drupal', 'Headless Drupal', 'APIs', 'Vue.js', 'React', 'JavaScript', 'HTML', 'Integration testing'],
     },
     {
       when: 'May 2021 – May 2022',
@@ -153,11 +163,11 @@ export const profile = {
   skills: [
     {
       title: 'CMS (Drupal)',
-      items: ['Drupal', 'Drupal Site Factory', 'WordPress', 'Custom modules', 'Custom themes', 'Twig', 'Composer', 'Acquia Solr', 'Views', 'SSO'],
+      items: ['Drupal', 'Headless Drupal', 'Drupal Site Factory', 'WordPress', 'Custom modules', 'Custom themes', 'Twig', 'Composer', 'Acquia Solr', 'Views', 'SSO'],
     },
     {
       title: 'Languages and front end',
-      items: ['PHP 7/8 (OOP)', 'JavaScript', 'jQuery', 'AJAX', 'React', 'Vue.js', 'Next.js', 'Node.js', 'HTML5', 'CSS3', 'Bootstrap', 'Foundation', 'Markdown', 'Hugo', 'Gatsby', 'Canvas web builder'],
+      items: ['PHP 7/8 (OOP)', 'JavaScript', 'jQuery', 'AJAX', 'React', 'Vue.js', 'Next.js', 'Nuxt', 'Node.js', 'HTML5', 'CSS3', 'Bootstrap', 'Foundation', 'Markdown', 'Hugo', 'Gatsby', 'Canvas web builder'],
     },
     {
       title: 'APIs and data',

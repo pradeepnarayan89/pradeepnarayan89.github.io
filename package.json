@@ -2,7 +2,7 @@
   "name": "pradeepnarayan89.github.io",
   "version": "1.0.0",
   "private": true,
-  "description": "Personal portfolio of Pradeep Narayana, built with Next.js and deployed to GitHub Pages.",
+  "description": "Personal portfolio of Pradeep Narayana, deployed to GitHub Pages.",
   "license": "UNLICENSED",
   "engines": {
     "node": ">=22.14.0"

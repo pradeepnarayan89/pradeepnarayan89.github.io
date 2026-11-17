@@ -9,37 +9,35 @@ Live site: https://pradeepnarayan89.github.io/
 ```
 src/app/          layout, page, global styles, icon
 src/components/   sidebar, nav, theme toggle and page sections
-src/data/         all page content in one typed file (profile.ts)
+src/data/         all page content in one file (profile.ts)
 tests/            unit and component tests
 scripts/          post-build smoke test
-public/           photo and .nojekyll
-.github/          CI/CD workflow and Dependabot config
+public/           photo and static files
+.github/          CI/CD workflow and dependency update config
 ```
 
 To change the text on the site, edit `src/data/profile.ts`.
 
 ## Local development
 
-Requires Node 22 or newer.
-
 ```bash
 npm install
 npm run dev        # http://localhost:3000
-npm run ci         # typecheck, tests, build and smoke test, same as the pipeline
+npm run ci         # type check, tests, build and smoke test, same as the pipeline
 ```
 
 | Script | What it does |
 | --- | --- |
 | `npm run dev` | Start the dev server |
-| `npm run typecheck` | Run `tsc --noEmit` |
-| `npm test` | Run unit and component tests once |
+| `npm run typecheck` | Check types |
+| `npm test` | Run the tests once |
 | `npm run build` | Build the static site into `out/` |
 | `npm run test:build` | Smoke-test `out/` (see below) |
 | `npm run ci` | Everything above, in order |
 
 ## Commit convention
 
-Commits follow [Conventional Commits](https://www.conventionalcommits.org/). A husky `commit-msg` hook runs commitlint, and the pipeline checks again.
+Commits follow [Conventional Commits](https://www.conventionalcommits.org/). A commit hook checks the format locally, and the pipeline checks again.
 
 | Type | Effect on version |
 | --- | --- |
@@ -55,11 +53,11 @@ Example: `fix(privacy): strip device metadata from headshot`
 One workflow, `.github/workflows/ci-cd.yml`:
 
 1. **Verify and build** (every pull request and every push to `master`)
-   commit message lint, typecheck, unit tests, static build, smoke test of `out/`
+   commit message check, type check, tests, static build, smoke test of `out/`
 2. **Deploy** (push to `master` only, after verify passes)
    publishes `out/` to GitHub Pages
 3. **Release** (push to `master` only, after deploy succeeds)
-   semantic-release reads the commits, picks the next version, updates `CHANGELOG.md` and `package.json`, creates the tag and the GitHub release
+   reads the commits, picks the next version, updates `CHANGELOG.md` and `package.json`, creates the tag and the GitHub release
 
 A pull request never deploys or releases. A failing check stops everything after it.
 
@@ -72,10 +70,10 @@ A pull request never deploys or releases. A failing check stops everything after
 - a referenced local file is missing from `out/`
 - an email address, `mailto:` or `tel:` link appears in any exported page
 - the portrait carries device metadata (EXIF make, model, GPS or capture date)
-- `.nojekyll` is missing
+- the Pages marker file is missing
 
 ## One-time repository setup
 
 - Settings, Pages, Source: **GitHub Actions**
-- Settings, Actions, General, Workflow permissions: allow read and write (semantic-release pushes the changelog commit)
-- If `master` becomes a protected branch, allow the Actions bot to push to it, or switch semantic-release to a release-branch flow
+- Settings, Actions, General, Workflow permissions: allow read and write (the release step pushes the changelog commit)
+- If `master` becomes a protected branch, allow the Actions bot to push to it

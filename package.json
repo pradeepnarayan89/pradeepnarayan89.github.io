@@ -1,0 +1,43 @@
+{
+  "name": "pradeepnarayan89.github.io",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Personal portfolio of Pradeep Narayana, built with Next.js and deployed to GitHub Pages.",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:build": "node scripts/check-build.mjs",
+    "ci": "npm run typecheck && npm test && npm run build && npm run test:build",
+    "prepare": "husky",
+    "release": "semantic-release"
+  },
+  "dependencies": {
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "@semantic-release/changelog": "^7.0.0",
+    "@semantic-release/git": "^11.0.1",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "husky": "^9.1.7",
+    "jsdom": "^31.0.1",
+    "semantic-release": "^25.0.9",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.0"
+  }
+}

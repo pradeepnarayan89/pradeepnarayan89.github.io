@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/compare/v1.1.0...v1.1.1) (2026-11-17)
+
+
+### Bug Fixes
+
+* **content:** remove client name and rewrite pitch ([1d35c83](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/commit/1d35c83e8f5ec09585e54db8a0bba85e5024face))
+
 # [1.1.0](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/compare/v1.0.1...v1.1.0) (2026-11-17)
 
 

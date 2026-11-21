@@ -26,7 +26,7 @@ export const profile = {
     github: 'https://github.com/pradeepnarayan89',
     linkedin: 'https://www.linkedin.com/in/pradeepnarayan89',
     drupal: 'https://www.drupal.org/u/pradeepnarayan89',
-    acquia: 'https://certification.acquia.com/user/2649',
+    acquia: 'https://certification.acquia.com/person/certified/pradeep-narayana',
   },
   about: [
     "I'm a Senior Software Engineer at Northwestern Mutual in the New York City area, with full-stack knowledge built over 14+ years of developing web applications, from the database to the browser. On the back end I work with Drupal and PHP. On the front end I build with React, Next.js, Vue and Nuxt, connected through REST and JSON APIs.",

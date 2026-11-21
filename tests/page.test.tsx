@@ -46,6 +46,19 @@ describe('home page', () => {
     external.forEach((a) => expect(a.getAttribute('rel')).toContain('noopener'));
   });
 
+  it('opens every external link in a new tab and keeps in-page links in the same tab', () => {
+    const { container } = render(<Home />);
+    const external = container.querySelectorAll('a[href^="http"]');
+    expect(external.length).toBeGreaterThan(0);
+    external.forEach((a) => {
+      expect(a.getAttribute('target'), a.getAttribute('href') ?? '').toBe('_blank');
+      expect(a.getAttribute('rel')).toContain('noreferrer');
+    });
+    container.querySelectorAll('a[href^="#"]').forEach((a) => {
+      expect(a.hasAttribute('target'), a.getAttribute('href') ?? '').toBe(false);
+    });
+  });
+
   it('exposes a primary navigation landmark', () => {
     render(<Home />);
     const nav = screen.getByRole('navigation', { name: 'Primary' });

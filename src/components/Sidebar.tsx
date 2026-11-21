@@ -19,17 +19,17 @@ export function Sidebar() {
 
       <ul className="social side-social" aria-label="Profiles">
         <li>
-          <a href={profile.links.github} rel="noopener" aria-label="GitHub">
+          <a href={profile.links.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in a new tab)">
             <GitHubIcon />
           </a>
         </li>
         <li>
-          <a href={profile.links.linkedin} rel="noopener" aria-label="LinkedIn">
+          <a href={profile.links.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in a new tab)">
             <LinkedInIcon />
           </a>
         </li>
         <li>
-          <a href={profile.links.drupal} rel="noopener" aria-label="Drupal.org profile">
+          <a href={profile.links.drupal} target="_blank" rel="noopener noreferrer" aria-label="Drupal.org profile (opens in a new tab)">
             <DrupalIcon />
           </a>
         </li>

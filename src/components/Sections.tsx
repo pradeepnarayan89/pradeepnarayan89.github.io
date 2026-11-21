@@ -105,8 +105,9 @@ export function Skills() {
         ))}
       </ul>
       <p>
-        <a href={profile.links.acquia} rel="noopener">
+        <a href={profile.links.acquia} target="_blank" rel="noopener noreferrer">
           View my Acquia certification record
+          <span className="sr-only"> (opens in a new tab)</span>
         </a>
       </p>
     </section>
@@ -120,23 +121,27 @@ export function Contact() {
       <p>Based in the New York City area, United States. The best way to reach me is through one of these.</p>
       <ul className="links">
         <li>
-          <a className="btn primary" href={profile.links.linkedin} rel="noopener">
+          <a className="btn primary" href={profile.links.linkedin} target="_blank" rel="noopener noreferrer">
             LinkedIn
+            <span className="sr-only"> (opens in a new tab)</span>
           </a>
         </li>
         <li>
-          <a className="btn" href={profile.links.github} rel="noopener">
+          <a className="btn" href={profile.links.github} target="_blank" rel="noopener noreferrer">
             GitHub
+            <span className="sr-only"> (opens in a new tab)</span>
           </a>
         </li>
         <li>
-          <a className="btn" href={profile.links.drupal} rel="noopener">
+          <a className="btn" href={profile.links.drupal} target="_blank" rel="noopener noreferrer">
             Drupal.org
+            <span className="sr-only"> (opens in a new tab)</span>
           </a>
         </li>
         <li>
-          <a className="btn" href={profile.links.acquia} rel="noopener">
+          <a className="btn" href={profile.links.acquia} target="_blank" rel="noopener noreferrer">
             Acquia certifications
+            <span className="sr-only"> (opens in a new tab)</span>
           </a>
         </li>
       </ul>

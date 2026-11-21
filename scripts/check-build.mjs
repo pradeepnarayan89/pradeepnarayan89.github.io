@@ -31,6 +31,12 @@ for (const [, path] of html.matchAll(/(?:src|href)="(\/[^"]*)"/g)) {
   if (!existsSync(join(OUT, clean))) fail(`referenced file ${clean} is missing from ${OUT}/`);
 }
 
+// 3b. External links open in a new tab and do not leak the opener
+for (const [tag] of html.matchAll(/<a\s[^>]*href="https?:\/\/[^"]*"[^>]*>/g)) {
+  if (!/target="_blank"/.test(tag)) fail(`external link opens in the same tab: ${tag.slice(0, 80)}`);
+  if (!/rel="[^"]*noopener[^"]*noreferrer[^"]*"/.test(tag)) fail(`external link is missing rel="noopener noreferrer": ${tag.slice(0, 80)}`);
+}
+
 // 4. No contact details leaked into any exported page
 const pages = [];
 (function walk(dir) {

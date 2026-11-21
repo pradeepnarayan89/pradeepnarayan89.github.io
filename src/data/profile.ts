@@ -40,28 +40,28 @@ export const profile = {
   ],
   focus: [
     {
-      title: 'CMS architecture',
-      text: 'High-level and component-level architecture for Drupal web applications, as solutions architect and subject matter expert.',
+      title: 'Content platforms at scale',
+      text: 'Delivered 100+ solutions for a global pharmaceutical client across North America, LATAM and APAC, and extend the Drupal CMS behind client-facing content experiences today.',
     },
     {
-      title: 'Custom modules and themes',
-      text: 'Custom Drupal modules, themes and Twig templates, plus third-party API and application integrations.',
+      title: 'Headless and API-driven delivery',
+      text: 'Backend work on headless Drupal and its APIs, partnering with marketing, editorial, design and sister engineering teams to power content across web properties.',
     },
     {
-      title: 'Upgrades and migrations',
-      text: 'Core updates with Composer, a PHP upgrade across a global pharmaceutical platform, and a full data migration for a rebuilt brand site.',
-    },
-    {
-      title: 'CI/CD and DevOps',
-      text: 'Automated builds and releases with Jenkins, GitLab and Ansible, Docker environments, and Cloudflare DNS onboarding for 250+ sites.',
+      title: 'Better authoring and search',
+      text: 'Simplified the authoring experience on a rebuilt brand site, and shipped Solr-powered advanced search with AND, OR and NOT filters so users can drill down to what they need.',
     },
     {
       title: 'Security and access',
-      text: 'Security fixes across the platform, a private file system for confidential content, and SSO login with Janrain.',
+      text: 'Applied security fixes across a large site platform, added SSO login with Janrain, and protected confidential content with a private file system.',
     },
     {
-      title: 'Delivery and leadership',
-      text: 'Team lead, technical architect and module lead. Project documents from BRD to change requests, plus mentoring and client handover.',
+      title: 'Reliable, repeatable releases',
+      text: 'Automated builds, packaging and releases with Jenkins, GitLab and Ansible, with Docker environments so teams ship consistently across environments.',
+    },
+    {
+      title: 'Quality and team delivery',
+      text: "Wrote documentation and integration tests, reviewed teammates' code, mentored developers, and handed projects to clients with knowledge transfer.",
     },
   ],
   steps: [
@@ -92,13 +92,10 @@ export const profile = {
       title: 'Senior Software Engineer, Content Systems',
       where: 'Northwestern Mutual · New York City area',
       points: [
-        "Build new features for the Drupal CMS that powers Northwestern Mutual's client-facing content experiences, working within the engineering team on the marketing technology side to extend the platform.",
-        'Do backend-focused work on headless Drupal and its APIs, collaborating on design and testing with marketing, editorial, design and sister engineering teams.',
-        'Build front-end components, content types and templated pages for the NM.com "Life and Money" blog with Vue.js, React, HTML and related browser technologies.',
-        'Partner with the design team on concepts, identify UI/UX patterns used across NM.com web properties, and maintain these composable pieces.',
-        'Write documentation and integration tests for the content systems.',
-        'Support stakeholders directly, troubleshooting usage problems and helping the product team shape feature requirements.',
-        "Contribute code and review teammates' code as part of the software team.",
+        "Build and extend the Drupal CMS behind Northwestern Mutual's client-facing content, with backend work on headless Drupal and its APIs.",
+        'Develop front-end components, content types and templated pages for the NM.com "Life and Money" blog using Vue.js and React.',
+        'Work with design, marketing, editorial and product teams to shape requirements, maintain shared UI patterns and support stakeholders.',
+        "Document the content systems, write integration tests and review teammates' code.",
       ],
       tags: ['Drupal', 'Headless Drupal', 'APIs', 'Vue.js', 'React', 'JavaScript', 'HTML', 'Integration testing'],
     },

@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/compare/v1.1.3...v1.1.4) (2026-11-21)
+
+
+### Bug Fixes
+
+* **content:** open external links in a new tab and update Acquia link ([f13bbcc](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/commit/f13bbcce78ba50460001786c9b1e089e0e4daf84))
+
 ## [1.1.3](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/compare/v1.1.2...v1.1.3) (2026-11-21)
 
 

@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/compare/v1.1.2...v1.1.3) (2026-11-21)
+
+
+### Bug Fixes
+
+* **content:** reword What I do cards and condense current role ([a375a12](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/commit/a375a12aab7d01ad8e65be03c54019b0c58b77af))
+
 ## [1.1.2](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/compare/v1.1.1...v1.1.2) (2026-11-21)
 
 

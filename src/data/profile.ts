@@ -29,13 +29,13 @@ export const profile = {
     acquia: 'https://certification.acquia.com/user/2649',
   },
   about: [
-    "I'm a full-stack developer at Northwestern Mutual in the New York City area, with 14+ years of building web applications from the database to the browser. On the back end I work with Drupal and PHP. On the front end I build with React, Next.js, Vue and Nuxt, connected through REST and JSON APIs.",
+    "I'm a Senior Software Engineer at Northwestern Mutual in the New York City area, with full-stack knowledge built over 14+ years of developing web applications, from the database to the browser. On the back end I work with Drupal and PHP. On the front end I build with React, Next.js, Vue and Nuxt, connected through REST and JSON APIs.",
     "I'm strongest at custom Drupal modules and themes, third-party integrations, and the delivery work around them: architecture, Docker and CI/CD, and release management. I'm passionate about open source and keep learning, and I hold six Acquia certifications.",
   ],
   stats: [
     { value: '14+', label: 'years since 2012' },
     { value: '100+', label: 'solutions for a global pharma client' },
-    { value: '250+', label: 'sites moved to Cloudflare DNS' },
+    { value: '5', label: 'JS stacks: React, Vue, Next.js, Nuxt and Node.js' },
     { value: '6', label: 'Acquia certifications' },
   ],
   focus: [

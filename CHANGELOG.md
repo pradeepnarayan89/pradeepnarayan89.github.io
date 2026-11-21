@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/compare/v1.1.1...v1.1.2) (2026-11-21)
+
+
+### Bug Fixes
+
+* **content:** reword About and replace Cloudflare stat ([b53871e](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/commit/b53871e35b2b34a76d9215ec26ed3d51acc7e320))
+
 ## [1.1.1](https://github.com/pradeepnarayan89/pradeepnarayan89.github.io/compare/v1.1.0...v1.1.1) (2026-11-17)
 
 
